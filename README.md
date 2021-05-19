@@ -47,6 +47,11 @@ After installing wordpress, we can manage the database schemas with phpMyAdmin.
 
       User: root
       Password: password
+      
+#### Access container from bash
+As we defined in the Dockerfile the path of the WordPress folder, we can access the container through the command below
+> docker exec <container_id> /bin/bash
+
 
 
 
